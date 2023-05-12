@@ -1,0 +1,28 @@
+Reikalingos versijos:
+Node.js - v18.15.0
+npm - 9.5.0
+Kodo redaktoriaus paleidimui, tinka Visual Studio code.
+
+Prieš leidžiant programą pirmą kartą kompiuteryje reikia atsidaryti kodo redaktorių, jame atsidaryti 2 terminalo langus, vienas iš jų bus skirtas vartotojo sąsajos daliai (frontend folderis), kitas serverinei daliai (backend):
+
+Pirmame terminale įveskite komandą:
+1. npm install 
+
+Antrame terminale įvesti komandas:
+1. cd frontend
+2. npm install 
+
+Norint paleisti programą reikia įvesti šias komandas.
+Pirmame terminale įvesti komandas:
+1. cd backend
+2. npm start 
+
+Antrame terminale įvesti komandas:
+1. npm start 
+
+Jei kyla problemos prisijungiant prie duomenų bazės, gali reikėti patvirtinti IP adresą. Reikia prisijungti prie https://cloud.mongodb.com/ Su duomenimis:
+el.paštas: ruta.jonikaite12@gmail.com
+slaptažodis: bOkalauroDB
+
+Prisijungus šoniniame meniu pasirinkite Network access. Ten bus opcija arba patvirtinti automatiškai nustatytą IP arba pridėti rankiniu būdu.
+Tada galima dar kartą pakartoti paleidimo veiksmus terminale
